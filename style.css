@@ -1,0 +1,29 @@
+#containerofcal{
+    width: 500px;
+    height: fit-content;
+}
+.numbers{
+width: 30%;
+height: 30px;
+background-color: rgb(255, 255, 255);
+color: black;
+}
+.numbersUp{
+    width: 22.3%;
+    height: 30px;
+    background-color: lightgray;
+}
+
+
+.calinput{
+    width: 450px;
+    height: 30px;
+    background-color: black;
+    color: white;
+
+}
+#even{
+   width: 460px;
+    display: inline;
+    background-color: rgb(230, 122, 0);
+}
