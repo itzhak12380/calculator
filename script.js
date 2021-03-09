@@ -23,15 +23,16 @@ document.body.addEventListener('click', function (event) {
    }
    else if (target.id === "reset") {
       userInputStr = '';
-       mainInput.value ='';
-       rightSide = undefined;
-       leftSide = undefined;
-       selectedOperator = undefined;
-              
+      mainInput.value = '';
+      rightSide = undefined;
+      leftSide = undefined;
+      selectedOperator = undefined;
+
    }
+
 });
- 
- 
+
+
 function applyOperator(leftSide, rightSide, operator) {
    switch (operator) {
       case 'mulOpertaor':
@@ -41,7 +42,7 @@ function applyOperator(leftSide, rightSide, operator) {
       case 'pluOpertaor':
          return leftSide + rightSide;
          break;
-   
+
       case 'divOpertaor':
          return leftSide / rightSide;
          break;
@@ -49,6 +50,6 @@ function applyOperator(leftSide, rightSide, operator) {
       case 'minosOpertaor':
          return leftSide - rightSide;
          break;
-         
+
    }
 }

@@ -1,12 +1,20 @@
+#maincontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+}
 #containerofcal{
     width: 500px;
     height: fit-content;
+    
 }
 .numbers{
 width: 30%;
 height: 30px;
 background-color: rgb(255, 255, 255);
-color: black;
+color: black;          
 }
 .numbersUp{
     width: 22.3%;

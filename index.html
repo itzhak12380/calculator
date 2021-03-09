@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +8,44 @@
     <title>itzhak calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="containerGrid" id="containerofcal">
-        <div > <input type="text" readonly class="calinput" id="mainInput" ></div>
-        <div class="operatortHeader">
-            <button class="numbersUp" id="pluOpertaor">+</button>
-            <button class="numbersUp" id="minosOpertaor">-</button>
-            <button class="numbersUp" id="divOpertaor">/</button>
-            <button class="numbersUp" id="mulOpertaor">*</button>
+    <div id="maincontainer">
+        <div class="containerGrid" id="containerofcal">
+            <div>
+                <input type="text" readonly class="calinput" id="mainInput">
+            </div>
+            <div class="operatortHeader">
+                <button class="numbersUp" id="pluOpertaor">+</button>
+                <button class="numbersUp" id="minosOpertaor">-</button>
+                <button class="numbersUp" id="divOpertaor">/</button>
+                <button class="numbersUp" id="mulOpertaor">*</button>
+            </div>
+
+
+            <div class="main" id="numberdiv">
+                <button value="1" class="numbers" id="numberOne">1</button>
+                <button value="2" class="numbers" id="numberTow">2</button>
+                <button value="3" class="numbers" id="numberThree">3</button>
+
+                <button value="4" class="numbers" id="numberFour">4</button>
+                <button value="5" class="numbers" id="numberFive">5</button>
+                <button value="6" class="numbers" id="numberSix">6</button>
+
+                <button value="7" class="numbers" id="numberSeven">7</button>
+                <button value="8" class="numbers" id="numberEight">8</button>
+                <button value="9" class="numbers" id="numberNine">9</button>
+
+                <button value="." class="numbers" id="dot">.</button>
+                <button value="0" class="numbers" id="numberZero">0</button>
+                <button class="numbers" id="reset">AC</button>
+                <button class="numbers" id="even"> = </button>
+            </div>
         </div>
-
-        <div class="sideoperator" > 
-             
-         </div>
-        <div class="main" id="numberdiv">   
-        <button value="1" class="numbers" id="numberOne">1</button>
-        <button value="2" class="numbers" id="numberTow">2</button>
-        <button value="3" class="numbers" id="numberThree">3</button>
-        
-        <button value="4" class="numbers" id="numberFour">4</button>
-        <button value="5" class="numbers" id="numberFive">5</button>
-        <button value="6" class="numbers" id="numberSix">6</button>
-       
-        <button value="7" class="numbers" id="numberSeven">7</button>
-        <button value="8" class="numbers" id="numberEight">8</button>
-        <button value="9" class="numbers" id="numberNine">9</button>
-         
-        <button value="." class="numbers" id="dot">.</button>
-        <button value="0" class="numbers" id="numberZero">0</button>
-        <button class="numbers" id="reset">AC</button>
-        <button class="numbers" id="even"> = </button> 
     </div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
-    </div>
+
 </body>
+
 </html>
